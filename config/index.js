@@ -16,7 +16,7 @@ module.exports = {
         target: 'https://news-at.zhihu.com',  // 接口域名
         changeOrigin: true,  //是否跨域
         pathRewrite: {
-            '^/apis': ''   //需要rewrite重写的,
+            '^/apis': 'https://news-at.zhihu.com'   //需要rewrite重写的,
         }              
       }
     },
